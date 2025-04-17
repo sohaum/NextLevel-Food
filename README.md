@@ -2,6 +2,11 @@
 # NextLevel-Food
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<img width="933" alt="Screenshot 2025-04-17 120612" src="https://github.com/user-attachments/assets/56d591f8-a49c-4288-b136-9752b82d74a0" />
+<img width="937" alt="Screenshot 2025-04-17 120652" src="https://github.com/user-attachments/assets/807bc23b-adcb-4e9f-994a-6dde17a911e5" />
+<img width="935" alt="Screenshot 2025-04-17 120724" src="https://github.com/user-attachments/assets/9a0008ea-610b-458e-90d9-6df5a74bdc62" />
+
+
 
 ## Getting Started
 
