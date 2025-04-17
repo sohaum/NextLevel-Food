@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/meals/meal-grid.js", "lib/action.js", "src/app/page.jsx", "src/app/components/meals/meal-item.js", "src/app/components/meals/meals-form-submit.js", "src/app/meals/[mealSlug]/page.js", "src/app/meals/share/error.js", "src/app/meals/error.js", "src/app/meals/loading-out.js", "src/app/meals/page.js", "src/app/not-found.jsx", "src/app/components/images/image-slideshow.js", "src/app/components/main-header/main-header-background.js", "src/app/components/main-header/main-header.js", "src/app/components/meals/image-picker.js", "lib/meals.js"],
   "exclude": ["node_modules"]
 }
