@@ -6,7 +6,41 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 <img width="937" alt="Screenshot 2025-04-17 120652" src="https://github.com/user-attachments/assets/807bc23b-adcb-4e9f-994a-6dde17a911e5" />
 <img width="935" alt="Screenshot 2025-04-17 120724" src="https://github.com/user-attachments/assets/9a0008ea-610b-458e-90d9-6df5a74bdc62" />
 
+generate a table structure for this interface
 
+interface Train {
+  id: string;
+  trainNo: string;
+  trainName: string;
+  fromCity: string;
+  toCity: string;
+  seatsAvailable: number;
+  trainType: string;
+  frequency: string;
+  departureDateTime: string;
+  destinationDateTime: string;
+  ticketPrice: string;
+}
+
+export interface Reservation {
+  referenceNo: string;
+  trainId: string;
+  fromCity: string;
+  toCity: string;
+  numTickets: number;
+  dateTime: Date;
+}
+
+export interface User {
+  id: string;
+  name?: {
+    firstName: string;
+    lastName: string;
+  }
+  avatar?: string;
+  email?: string;
+  [key: string]: unknown;
+}
 
 ## Getting Started
 
